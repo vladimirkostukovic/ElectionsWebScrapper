@@ -1,0 +1,7 @@
+venv/
+.venv/
+lib/
+.lib/
+pyvenv.cfg
+.idea
+idea/
