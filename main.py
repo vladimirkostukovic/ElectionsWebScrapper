@@ -65,7 +65,7 @@ def get_election_data(ps311_link):
         ballots_issued = summary_data[4]  # Ballots issued
         valid_votes = summary_data[7]  # Valid votes
 
-        # Data for parties
+        # Data for partiess
         parties_votes = {}
         parties_table = soup.find_all("table", {"class": "table"})[1:]
 
