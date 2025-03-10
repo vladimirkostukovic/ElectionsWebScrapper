@@ -90,7 +90,7 @@ def get_election_data(ps311_link):
         print(f"Error {url}: {e}")
         return None
 
-# 🔄 Start parsing
+# Start parsing
 all_data = []
 ps311_links = get_ps311_links(input_url)
 
